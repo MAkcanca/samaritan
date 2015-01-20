@@ -58,7 +58,9 @@ public class TextActivity extends Activity implements Runnable {
             {"time"},
             {"your command"},
             {"shaw", "sameen shaw", "samantha groves", "groves", "harold finch", "finch", "john reese","reese"},
-            {"who is admin", "identify admin"}
+            {"who is admin", "identify admin"},
+            {"help", "protect", "protection", "assistance", "send back up"},
+            {"tell me a joke"}
     };
 
     // Samaritan responses:
@@ -175,6 +177,19 @@ public class TextActivity extends Activity implements Runnable {
                                     Random r = new Random();
                                     lastCommand = "Admin is " + ADMIN_IDENTITY[r.nextInt(ADMIN_IDENTITY.length)];
                                     break;
+                                case 7: // Request help
+                                    if(spokenWords.contains("do not " + input) || spokenWords.contains("don't " + input))
+                                        lastCommand = "Ok";
+                                    else{
+                                        if(spokenWords.contains("her") || spokenWords.contains("him") || spokenWords.contains("them"))
+                                            lastCommand = "I will protect them now";
+                                        else
+                                            lastCommand = "I will protect you now";
+                                    }
+                                    break;
+                                case 8:
+                                    lastCommand = "Calculating Response";
+                                    break;
                             }
 
                             guessedPhrase = true;
@@ -185,7 +200,7 @@ public class TextActivity extends Activity implements Runnable {
                 }
 
                 if(!guessedPhrase)
-                    lastCommand = "Investigation ongoing";
+                    lastCommand = "Calculating Response";
 
                 parseText(lastCommand);
                 displayPhrase();
