@@ -1449,7 +1449,6 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
         public static final int activity_chooser_view_content=0x7f090021;
-        public static final int add_phrase=0x7f090043;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
         public static final int black_line=0x7f090040;
@@ -1457,7 +1456,6 @@ containing a value of this type.
         public static final int collapseActionView=0x7f090017;
         public static final int decor_content_parent=0x7f09002f;
         public static final int default_activity_button=0x7f090024;
-        public static final int delete_phrase=0x7f090045;
         public static final int dialog=0x7f09001b;
         public static final int disableHome=0x7f09000c;
         public static final int displayText=0x7f090041;
@@ -1491,7 +1489,6 @@ containing a value of this type.
         public static final int search_plate=0x7f090039;
         public static final int search_src_text=0x7f09003a;
         public static final int search_voice_btn=0x7f09003e;
-        public static final int settings=0x7f090044;
         public static final int shortcut=0x7f09002a;
         public static final int showCustom=0x7f09000f;
         public static final int showHome=0x7f090010;
@@ -1557,18 +1554,8 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f0b000d;
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000e;
         public static final int abc_toolbar_collapse_description=0x7f0b000f;
-        public static final int action_add=0x7f0b0010;
-        public static final int action_settings=0x7f0b0011;
-        public static final int add_phrase=0x7f0b0012;
-        public static final int app_name=0x7f0b0013;
-        public static final int clear=0x7f0b0014;
-        public static final int delete_phrase=0x7f0b0015;
-        public static final int display=0x7f0b0016;
-        public static final int enter_text=0x7f0b0017;
-        public static final int loop=0x7f0b0018;
-        public static final int quotes=0x7f0b0019;
-        public static final int text_to_display=0x7f0b001a;
-        public static final int title_activity_text=0x7f0b001b;
+        public static final int app_name=0x7f0b0010;
+        public static final int title_activity_text=0x7f0b0011;
     }
     public static final class style {
         public static final int Base_TextAppearance_AppCompat=0x7f0c0000;
