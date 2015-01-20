@@ -37,10 +37,13 @@ import com.thetorine.samaritan.R;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Random;
 
 public class TextActivity extends Activity implements Runnable {
     // Constants that will not be changed.
     private final int DISPLAY_TIME = 500;
+
+    private final String[] ADMIN_IDENTITY = {"Arthur Claypool", "Henry McCarthy", "Rudigar Smoot"};
 
     // Group 1: Repeat
     // Group 2: Greetings
@@ -53,8 +56,9 @@ public class TextActivity extends Activity implements Runnable {
             {"hi","hello"},
             {"your name","address you","identify","who are you"},
             {"time"},
-            {"your command", "who"},
-            {"shaw", "sameen shaw", "samantha groves", "groves", "harold finch", "finch", "john reese","reese"}
+            {"your command"},
+            {"shaw", "sameen shaw", "samantha groves", "groves", "harold finch", "finch", "john reese","reese"},
+            {"who is admin", "identify admin"}
     };
 
     // Samaritan responses:
@@ -149,23 +153,27 @@ public class TextActivity extends Activity implements Runnable {
                     for(String input : group) {
                         if (spokenWords.contains(input)) {
                             switch(i) {
-                                case 0:
+                                case 0: // User requests repeat message
                                     break;
-                                case 1:
+                                case 1: // Greetings
                                     lastCommand = input;
                                     break;
-                                case 2:
+                                case 2: // Ask for name.
                                     lastCommand = "I am Samaritan";
                                     break;
-                                case 3:
+                                case 3: // Get current time.
                                     Calendar calendar = Calendar.getInstance();
                                     lastCommand = calendar.getTime().toString().split(" ")[3];
                                     break;
-                                case 4:
+                                case 4: // User mentions Samaritan's commands
                                     lastCommand = "Find the machine";
                                     break;
-                                case 5:
+                                case 5: // User mentions a member of Team Machine
                                     lastCommand = "Disregard Non Threat";
+                                    break;
+                                case 6: // Identify admin
+                                    Random r = new Random();
+                                    lastCommand = "Admin is " + ADMIN_IDENTITY[r.nextInt(ADMIN_IDENTITY.length)];
                                     break;
                             }
 
