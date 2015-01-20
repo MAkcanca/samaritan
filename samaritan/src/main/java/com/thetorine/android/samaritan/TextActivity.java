@@ -54,7 +54,7 @@ public class TextActivity extends Activity implements Runnable {
             {"your name","address you","identify","who are you"},
             {"time"},
             {"your command", "who"},
-            {"Shaw", "Sameen Shaw", "Samantha Groves", "Groves", "Harold Finch", "Finch", "John Reese","Reese"}
+            {"shaw", "sameen shaw", "samantha groves", "groves", "harold finch", "finch", "john reese","reese"}
     };
 
     // Samaritan responses:
@@ -81,7 +81,6 @@ public class TextActivity extends Activity implements Runnable {
     // Speech recognizer
     private SpeechRecognizer sr = null;
     private Intent recognizerIntent = null;
-    private boolean isListening = false;
     private String spokenWords = "";
     private String lastCommand = "";
 
@@ -166,7 +165,7 @@ public class TextActivity extends Activity implements Runnable {
                                     lastCommand = "Find the machine";
                                     break;
                                 case 5:
-                                    lastCommand = "Non threat disregard";
+                                    lastCommand = "Disregard Non Threat";
                                     break;
                             }
 
@@ -178,12 +177,10 @@ public class TextActivity extends Activity implements Runnable {
                 }
 
                 if(!guessedPhrase)
-                    lastCommand = "Calculating response";
+                    lastCommand = "Investigation ongoing";
 
                 parseText(lastCommand);
                 displayPhrase();
-
-                isListening = false;
             }
         }
 
@@ -320,14 +317,7 @@ public class TextActivity extends Activity implements Runnable {
 
     // When user taps screen.
     public void onClick(View view) {
-        // Toggle listening
-        isListening = !isListening;
-
-        if (isListening) {
-            sr.startListening(recognizerIntent);
-        }else{
-            sr.stopListening();
-        }
+        sr.startListening(recognizerIntent);
     }
 
     // Splits words and punctuation apart, so each word and punctuation is displayed separately.
