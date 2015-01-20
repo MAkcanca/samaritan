@@ -42,11 +42,10 @@
       <file leaf-file-name="TextActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/samaritan/src/main/java/com/thetorine/android/samaritan/TextActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68733156" vertical-offset="375" max-vertical-offset="5385">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20215634" vertical-offset="375" max-vertical-offset="5385">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="e#0#11773#0" expanded="true" />
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,8 +112,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/samaritan.jks" />
-    <option name="KEY_ALIAS" value="MyAndroidApp" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/samaritan.apk" />
+    <option name="KEY_ALIAS" value="Samaritan" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="GradleLocalSettings">
@@ -923,7 +922,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -936,7 +935,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6677909" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -982,7 +981,6 @@
           <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
           <folding>
             <element signature="e#0#11773#0" expanded="true" />
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1036,7 +1034,6 @@
           <caret line="297" column="35" selection-start-line="297" selection-start-column="32" selection-end-line="297" selection-end-column="35" />
           <folding>
             <element signature="e#0#11773#0" expanded="true" />
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1117,11 +1114,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samaritan/src/main/java/com/thetorine/android/samaritan/TextActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68733156" vertical-offset="375" max-vertical-offset="5385">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20215634" vertical-offset="375" max-vertical-offset="5385">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="e#0#11773#0" expanded="true" />
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
