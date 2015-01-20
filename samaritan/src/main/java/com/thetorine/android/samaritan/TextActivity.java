@@ -45,8 +45,11 @@ public class TextActivity extends Activity implements Runnable {
     // Add more groups below as to expand on user inputs.
     // Group 1: Greetings
     // Group 2: User asks app who it is
+    // Group 3: Ask for the time
     private static final String[][] INPUT_IDENTIFIER = new String[][]{
-            {"hi","hello"}, {"your name","address you","identify","who are you"}
+            {"hi","hello"},
+            {"your name","address you","identify","who are you"},
+            {"what time is it", "tell me the time"}
     };
 
     // Samaritan responses:
