@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/classes-1dfc08039237974d55eafc859bd33dcfbe3a4af3.jar" />
+    </item>
+    <item
+        jar="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/classes-20947106d503993f1f029d1b4f69dd92ff9a3787.jar" />
+    </item>
+    <item
+        jar="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-17822b690c65144f86fb14b7378343e543402137.jar" />
+    </item>
+    <item
+        jar="/Users/SamanthaGroves/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-86b96c1c1a0ff85c31c3161cb9b986d2c608feb6.jar" />
+    </item>
+    <item
+        jar="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/classes-82d14057c8a31f5718910fff73d1f7b679b443d0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,6 @@
+/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/classes/debug
+/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-86b96c1c1a0ff85c31c3161cb9b986d2c608feb6.jar
+/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/classes-1dfc08039237974d55eafc859bd33dcfbe3a4af3.jar
+/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-17822b690c65144f86fb14b7378343e543402137.jar
+/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/classes-20947106d503993f1f029d1b4f69dd92ff9a3787.jar
+/Users/SamanthaGroves/AndroidStudioProjects/android studio/samaritan/build/intermediates/pre-dexed/debug/classes-82d14057c8a31f5718910fff73d1f7b679b443d0.jar
