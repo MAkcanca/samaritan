@@ -35,21 +35,26 @@ import com.thetorine.android.samaritan.utilities.Storage;
 import com.thetorine.samaritan.R;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class TextActivity extends Activity implements Runnable {
     // Constants that will not be changed.
     private final int DISPLAY_TIME = 500;
 
-    // Identify user phrases
-    // Add more groups below as to expand on user inputs.
-    // Group 1: Greetings
-    // Group 2: User asks app who it is
-    // Group 3: Ask for the time
+    // Group 1: Repeat
+    // Group 2: Greetings
+    // Group 3: Identify yourself
+    // Group 4: Time?
+    // Group 5: Tell me what's next
+    // Group 6: Say a name.
     private static final String[][] INPUT_IDENTIFIER = new String[][]{
+            {"repeat"},
             {"hi","hello"},
             {"your name","address you","identify","who are you"},
-            {"what time is it", "tell me the time"}
+            {"time"},
+            {"your command", "who"},
+            {"Shaw", "Sameen Shaw", "Samantha Groves", "Groves", "Harold Finch", "Finch", "John Reese","Reese"}
     };
 
     // Samaritan responses:
@@ -78,6 +83,7 @@ public class TextActivity extends Activity implements Runnable {
     private Intent recognizerIntent = null;
     private boolean isListening = false;
     private String spokenWords = "";
+    private String lastCommand = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -145,12 +151,25 @@ public class TextActivity extends Activity implements Runnable {
                         if (spokenWords.contains(input)) {
                             switch(i) {
                                 case 0:
-                                    parseText(input);
                                     break;
                                 case 1:
-                                    parseText("I am Samaritan");
+                                    lastCommand = input;
+                                    break;
+                                case 2:
+                                    lastCommand = "I am Samaritan";
+                                    break;
+                                case 3:
+                                    Calendar calendar = Calendar.getInstance();
+                                    lastCommand = calendar.getTime().toString().split(" ")[3];
+                                    break;
+                                case 4:
+                                    lastCommand = "Find the machine";
+                                    break;
+                                case 5:
+                                    lastCommand = "Non threat disregard";
                                     break;
                             }
+
                             guessedPhrase = true;
                             break;
                         }
@@ -158,7 +177,10 @@ public class TextActivity extends Activity implements Runnable {
                     i++;
                 }
 
-                if(!guessedPhrase) parseText("Calculating response.");
+                if(!guessedPhrase)
+                    lastCommand = "Calculating response";
+
+                parseText(lastCommand);
                 displayPhrase();
 
                 isListening = false;
