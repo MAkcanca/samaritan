@@ -39,7 +39,7 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:9:9
 	android:icon
 		ADDED from AndroidManifest.xml:10:9
-activity#com.thetorine.android.samaritan.TextActivity
+activity#com.samaritan.TextActivity
 ADDED from AndroidManifest.xml:14:9
 	android:label
 		ADDED from AndroidManifest.xml:16:13
@@ -59,7 +59,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:21:17
 	android:name
 		ADDED from AndroidManifest.xml:21:27
-activity#com.thetorine.android.samaritan.PreferencesActivity
+activity#com.samaritan.PreferencesActivity
 ADDED from AndroidManifest.xml:24:9
 	android:label
 		ADDED from AndroidManifest.xml:26:13

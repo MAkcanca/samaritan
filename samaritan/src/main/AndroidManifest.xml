@@ -12,7 +12,7 @@
         android:versionCode="2"
         android:versionName="1.1" >
         <activity
-            android:name="com.thetorine.android.samaritan.TextActivity"
+            android:name="com.samaritan.TextActivity"
             android:label="@string/title_activity_text"
             android:theme="@style/TextBlackTheme"
             android:configChanges="orientation">
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.thetorine.android.samaritan.PreferencesActivity"
+            android:name="com.samaritan.PreferencesActivity"
             android:label="Settings"
             android:theme="@style/MainTheme">
         </activity>
