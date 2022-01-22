@@ -17,4 +17,3 @@ This project is based on a base app created by the user thetorine, so big credit
 * Allow the app to "learn" things
 * Add more features to make it seem more omniscient.
 * Fix animation bugs.
-
